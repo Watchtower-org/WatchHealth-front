@@ -6,21 +6,17 @@ import {
 
 import { Home } from "./pages/Home";
 
-// import { Header } from './components/Header';
-// import { Footer } from './components/Footer';
-
-// import { Container } from './components/Container';
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 
 export const Routes = () => {
   return (
     <Router>
-      {/* <Container> */}
       {/* <Header /> */}
       <Switch>
         <Route path="/" element={<Home />} />
       </Switch>
-      {/* <Footer /> */}
-      {/* </Container> */}
+      <Footer />
     </Router>
   );
 };

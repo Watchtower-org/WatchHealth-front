@@ -17,11 +17,11 @@ export const GlobalStyles = createGlobalStyle`
   body {
     height: 100vh;
     font-size: 1.6rem;
-    background-color: ${({ theme }) => theme.colors.background}
+    background-color: ${({ theme }) => theme.colors.neutral}
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   button {
