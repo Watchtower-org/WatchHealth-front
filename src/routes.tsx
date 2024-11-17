@@ -9,7 +9,7 @@ import { Posts } from "./pages/Posts";
 import { NewsLetter } from "./pages/NewsLetter";
 
 // import { Header } from "./components/Header";
-// import { Footer } from "./components/Footer";
+import { Footer } from "./components/Footer";
 
 export const Routes = () => {
   return (
@@ -21,7 +21,7 @@ export const Routes = () => {
         <Route path="/newsletter/:email" element={<NewsLetter />} />
         <Route path="*" element={<Home />} />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 };

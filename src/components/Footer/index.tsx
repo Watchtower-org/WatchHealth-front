@@ -1,19 +1,28 @@
-import { Container } from "./styles";
+import { Container, LinksContainer, RssIcon } from "./styles";
 
-import { InstagramLogo } from "@phosphor-icons/react";
+import { RssSimple } from "@phosphor-icons/react";
+
+import config from "../../config";
 
 export const Footer = () => {
+  const accessRss = () => {
+    window.location.href = config.apiUrl + "/rss/covid?uf=MG";
+  };
+
   return (
     <Container>
-      <p>Watch Health - Para agregar e visualizar dados da saúde no Brasil.</p>
-      {/* <Links>
-        <a href="/#">
-          <XLogo />
+      <LinksContainer>
+        <a href="https://bsky.app/profile/watchtower-org.bsky.social">
+          BlueSky
         </a>
-        <a href="/#">
-          <InstagramLogo />
+        <a href="https://iris.to/npub12nj6nlsvgd0awt6qf87hn7mzp9s6830ku4mmmuus5pc2lss6fl6scaswgx">
+          Iris
         </a>
-      </Links> */}
+
+        <RssIcon onClick={accessRss}>
+          <RssSimple size={22} color="white" weight="bold" />
+        </RssIcon>
+      </LinksContainer>
     </Container>
   );
 };
