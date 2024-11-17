@@ -1,17 +1,19 @@
 import { Container } from "./styles";
 
-import { InstagramLogo, XLogo } from "@phosphor-icons/react";
+import { InstagramLogo } from "@phosphor-icons/react";
 
 export const Footer = () => {
   return (
     <Container>
-      <p>Saúde em Foco - Sua fonte confiável de informação sobre saúde.</p>
-      <a href="/#">
-        <XLogo />
-      </a>
-      <a href="/#">
-        <InstagramLogo />
-      </a>
+      <p>Watch Health - Para agregar e visualizar dados da saúde no Brasil.</p>
+      {/* <Links>
+        <a href="/#">
+          <XLogo />
+        </a>
+        <a href="/#">
+          <InstagramLogo />
+        </a>
+      </Links> */}
     </Container>
   );
 };

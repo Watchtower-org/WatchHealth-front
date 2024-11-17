@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-type ButtonProps = {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: string;
-};
+}
 
-export const Button = ({ children }: ButtonProps) => {
-  return <Container>{children}</Container>;
+export const Button = ({ children, ...props }: ButtonProps) => {
+  return <Container {...props}>{children}</Container>;
 };
