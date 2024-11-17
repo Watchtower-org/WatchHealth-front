@@ -1,46 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align="center">
+ <img src="https://github.com/Watchtower-org/WatchHealth-api/blob/main/logo.jpg?raw=true" width="400px"/>
+</div>
 
-In the project directory, you can run:
+<h3 align="center">Um hub completo de informações, notícias e resumos legais sobre saúde, com suporte à inteligência artificial. Tecnologia a serviço da saúde e das leis.</h3>
 
-### `npm start`
+<p align="center">
+WatchHealth é uma plataforma inovadora que centraliza informações relevantes na área da saúde. Além de fornecer notícias confiáveis, através de uma newsletter enviada por e-mail, a aplicação utiliza inteligência artificial para gerar resumos claros e objetivos de leis e regulamentações. Com foco na acessibilidade e qualidade da informação, o projeto visa facilitar o acesso a dados importantes para profissionais, pesquisadores e cidadãos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2 align="center">✨ Principais Funcionalidades</h2>
 
-### `npm test`
+<ul>
+  <li><strong>Notícias de Saúde:</strong> Agregação de notícias confiáveis e atualizadas sobre temas relevantes na área da saúde.</li>
+  <li><strong>Resumos de Leis:</strong> Utilização de inteligência artificial para criar resumos claros e objetivos de leis e regulamentações.</li>
+  <li><strong>Filtragem Inteligente:</strong> Algoritmos que priorizam notícias mais relevantes e confiáveis com base em critérios predefinidos.</li>
+  <li><strong>API Pública:</strong> Acesso programático para desenvolvedores interessados em consumir os dados.</li>
+  <li><strong>Integração Front-End:</strong> Interface moderna desenvolvida em TypeScript para fácil navegação e acesso às informações.</li>
+</ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2 align="center" id="tecnologias">🛠 Tecnologias Utilizadas</h2>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3><strong> Front-End: </strong></h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Next.js: Framework React para construção da interface de usuário
+- TypeScript: Para garantir a tipagem estática e segurança no código
+- React.js: Biblioteca para renderização eficiente e criação de interfaces interativas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3><strong> Back-End: </strong></h3>
 
-### `npm run eject`
+- TypeScript: Framework robusto e escalável para desenvolvimento de APIs.
+- Inteligência Artificial**: Utilizada para processar informações de forma mais didática e acessível.
+- APIs de Terceiros**: Integração com fontes externas para obter dados confiáveis.
+- Prisma: ORM para facilitar a interação com o banco de dados.
+- Docker: Containerização da aplicação para facilitar a implantação e escalabilidade.
+- Swagger: Para documentar e testar a API de forma eficiente.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+🌟 Inspirado por...
+"Think deeply about things. Don’t just go along because that’s the way things are or that’s what your friends say. Consider the effects, consider the alternatives, but most importantly, just think."
+— Aaron Swartz
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+🌟 Propósito.
 
-## Learn More
+Este projeto foi inspirado pela necessidade de informações confiáveis e torná-las acessíveis a todos de forma clara e organizada. Por meio da integração com tecnologia e intelegência Artificial, o watchHealth API democratiza o acesso à informação.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💡 Contribua
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são bem-vindas!
+
+<h3><strong> Como rodar o projeto? </strong></h3>
+
+Para rodar o projeto localmente, você irá precisar instalado o NodeJs e precisará rodar a API também.
+
+- [Node.js](https://nodejs.org/pt)
+
+Primeiramente clone o repositório da maneira que achar melhor.
+
+Depois, abra o terminal na raiz do projeto e execute: `npm i` para instalar as dependências.
+
+Em seguida, execute `npm run dev` para rodar o projeto!
+
+#### Pronto! O projeto já está rodando em `http://localhost:3000!`
