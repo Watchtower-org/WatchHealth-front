@@ -65,3 +65,6 @@ Depois, abra o terminal na raiz do projeto e execute: `npm i` para instalar as d
 Em seguida, execute `npm run dev` para rodar o projeto!
 
 #### Pronto! O projeto já está rodando em `http://localhost:3000!`
+
+> [!NOTE]
+> O projeto atualmente utiliza um proxy de CORS para parte de suas funcionalidades. Você precisa liberar o acesso ao proxy accessando [este link](https://cors-anywhere.herokuapp.com/corsdemo) e clicando no botão "Request temporary access to the demo server". Isso não será necessário em produção.
