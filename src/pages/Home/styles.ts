@@ -28,6 +28,7 @@ export const Content = styled.div`
   h3 {
     font-size: 2.6rem;
     margin-bottom: 1rem;
+    max-width: 450px;
   }
 
   p {
@@ -43,6 +44,10 @@ export const CTA = styled.div`
   flex-direction: row;
   gap: 1rem;
   align-items: center;
+
+  a {
+    height: 100%;
+  }
 `;
 
 export const LetMeReadFirst = styled.div`
@@ -53,7 +58,7 @@ export const LetMeReadFirst = styled.div`
   margin-top: 3rem;
 
   a {
-    color: #ccc;
+    color: #2196f3;
     font-size: 1.8rem;
   }
 `;

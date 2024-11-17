@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import {
   Container,
   Content,
@@ -14,6 +16,12 @@ import { ArrowRight } from "@phosphor-icons/react";
 import fundo from "../../assets/Fundo.png";
 
 export const Home = () => {
+  const [email, setEmail] = useState("");
+
+  const emailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setEmail(event.target.value);
+  };
+
   return (
     <Container>
       <Content>
@@ -26,13 +34,20 @@ export const Home = () => {
         </p>
 
         <CTA>
-          <Input placeholder="Coloque seu melhor email" type="email" />
-          <Button>Inscreva-se</Button>
+          <Input
+            placeholder="Digite seu melhor email"
+            onChange={emailChange}
+            type="email"
+            value={email}
+          />
+          <a href={`/newsletter/${email}`}>
+            <Button>Inscreva-se</Button>
+          </a>
         </CTA>
 
         <LetMeReadFirst>
           <a href="/posts">deixe-me ler primeiro</a>
-          <ArrowRight color="#CCC" size={20} />
+          <ArrowRight color="#2196F3" size={20} />
         </LetMeReadFirst>
       </Content>
       <ImageContainer>

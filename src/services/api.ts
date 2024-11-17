@@ -5,3 +5,7 @@ import config from "../config";
 export const api = axios.create({
   baseURL: config.apiUrl,
 });
+
+export const postsApi = axios.create({
+  baseURL: config.postsUrl,
+});

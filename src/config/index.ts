@@ -1,5 +1,6 @@
 const config = {
-  apiUrl: "https://viacep.com.br/ws/",
+  apiUrl: "http://localhost:5533",
+  postsUrl: "https://newsapi.org/",
 };
 
 export default config;
